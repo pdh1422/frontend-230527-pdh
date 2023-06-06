@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>예제 실습</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto:ital,wght@1,900&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-size: 19px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <section>
+      <h1>DONGHA</h1>
+      <nav>
+        <a href="#">홈</a>
+        <a href="#">1~4위</a>
+        <a href="#">5위~</a>
+        <a href="#">순위표</a>
+        <a href="#">순위사진</a>
+        <a href="#">개인정보</a>
+      </nav>
+    </section>
+  </header>
+  <main>
+    <section>
+      <h2>직장인 점심메뉴 순위 (1~4위)</h2>
+      <list>
+        <ol>
+          <li>한식백반</li>
+          <li>김치찌개</li>
+          <li>냉면</li>
+          <li>돈까스</li>
+        </ol>
+      </list>
+
+      '직장인들의 점심 최애 메뉴는 <strong>한식백반</strong>인 것으로 나타났다.
+      디지털 외식플랫폼 먼키가 사회적 거리두기가 전면 해제된 지난 18일부터 22일까지 평일 5일간 점심시간에 먼키에서 팔린 1만2159건의 메뉴를 분석한 결과다.
+
+      29일 먼키에 따르면 직장인들이 점심시간에 가장 많이 주문한 메뉴는 '한식백반'<em>(21.4%)</em>이었다. 이어 김치찌개와 된장찌개 등 '찌개류'<em>(16.2%)</em>,
+      '냉면'<em>(14.3%)</em>, '돈까스'<em>(12.4%)</em> 등의 순으로 조사됐다. <em>'특히 냉면은 4월 들어 주문량이 크게 늘고 있어 더워지는 날씨 영향을 받는 것으로
+        보인다.'</em>
+      한식백반, 김치찌개, 냉면, 돈까스 등 상위 4개 메뉴가 전체 주문량의 <em><b>64.3%</b></em>를 차지했다.'<br> <i>출처: <a
+          href="https://www.donga.com/news/Culture/article/all/20220429/113144627/1"
+          target="_blank">https://www.donga.com/news/Culture/article/all/20220429/113144627/1</i></a>
+      </article>
+    </section>
+    <hr />
+    <section>
+      <h3>직장인 점심메뉴 순위 (5위~)</h3>
+      <list>
+        <ul>
+          <li>탕류(순대국 등)</li>
+          <li>중식</li>
+          <li>분식(김밥 등)</li>
+          <li>샐러드 및 샌드위치</li>
+        </ul>
+      </list>
+      <article>
+        '또 순대국 등 탕류가<em> 7.5%</em>, 자장면과 짬뽕 등 중식이<em> 7.2%</em>, 김밥 등 분식이<em> 5.5%</em>를 기록했다. 젊은 여성 직장인이 선호하는 샐러드와
+        샌드위치는<em> 4.1%</em>로 나타났다.'<br> <i>출처: <a
+            href="https://www.donga.com/news/Culture/article/all/20220429/113144627/1"
+            target="_blank">https://www.donga.com/news/Culture/article/all/20220429/113144627/1</i></a>
+        <hr />
+      </article>
+    </section>
+    <section>
+      <h4>직장인 점심메뉴 순위 표</h4>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>순위</th>
+            <th>메뉴</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>한식백반<br>(21.4%)</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>김치찌개<br>(16.2%)</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>냉면<br>(14.3%)</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>돈까스<br>(12.4%)</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td rowspan="4">기타<br>(35.7%)</td>
+          </tr>
+          <tr>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>8</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <hr />
+    </section>
+    <section>
+      <h5>직장인 점심메뉴 순위 사진</h5>
+      <i><a href="https://www.donga.com/news/Culture/article/all/20220429/113144627/1" target="_blank">
+          <img src="../0606/images/123.png" id="imgs" style="width: 400px; height: 400px;" alt="Example image">
+      </i></a>
+      <br><br>
+    </section>
+    <section>
+      <form>
+        <fieldset>
+          <legend><b>Personal Information</b>
+          </legend>
+          <label for="name">Name:<br></label>
+          <input id="name" type="text" placeholder="이름" required autofocus class="width"><br>
+          <label for="password">Password:<br><label>
+              <input id="password" type="password" placeholder="비밀번호" required class="width"><br>
+              <label for="Email" class="width">Email:<br></label>
+              <input id="name" type="email" placeholder="이메일" class="width" autocomplete="off" required><br><br>
+              Do you like this form?<br><br>
+              <div class="radio">
+                <input type="radio" value="radio1" name="radio" checked>
+                <label for="radio1">Yes</label><br><br>
+                <input type="radio" value="radio2" name="radio">
+                <label for="radio">No</label><br><br>
+                <input type="checkbox" name="check" value="check1">
+                <label for="check1">Script error</label>
+                <input type="checkbox" name="check" value="check2">
+                <label for="check2">Design faulty</label>
+              </div>
+              <br> Comments:<br><br>
+              <textarea placeholder="코멘트를 입력해주세요." class="width"></textarea><br>
+              <button type="submit" class="width">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
