@@ -1,0 +1,72 @@
+body {
+font-size: 14px;
+}
+
+img {
+width: 30%;
+}
+
+h1{
+text-align: center;
+color: green;}
+
+div{
+display: flex;
+justify-content: center;
+/* align-items: center; */
+}
+#logo{
+  color: #03c75a;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+
+#login_form{
+padding: 20px 28px;
+width: 400px; 
+height: 200px;
+border: 1px solid #888;
+border-radius: 6px;
+margin: auto;
+}
+
+#langs {
+padding: 4px 10px 6px 8px;
+margin-left: 45em;
+}
+
+#etc {
+padding: 35px;
+}
+
+.inputs {
+border: 1px solid #dadada;
+border-radius: 5px;
+width: 100%;
+height: 20%;
+/* justify-content: center; */
+/* align-items: center; */
+
+}
+
+::marker {
+content: '';
+}
+
+.space {
+margin: 10px;
+color: #888;
+}
+
+#buttons {
+width: 400px;
+height: 50px;
+color: white;
+background-color: #03c75a;
+font-size: 20px;
+font-weight: 700;
+/* padding: 13px; */
+border: 1px solid;
+border-radius: 5px;
+}
