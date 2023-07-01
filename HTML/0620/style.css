@@ -1,0 +1,183 @@
+header {
+  display: flex;
+}
+
+.logo {
+margin: 20px;
+margin-left: 200px;
+margin-right: 100px;
+}
+
+
+.menu{
+width: 700px;
+line-height: 30px;
+text-decoration: none;
+color: inherit;
+
+}
+.menu a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu ul{
+display: flex;
+justify-content: space-between;
+list-style: none;
+font-weight: 700;
+
+
+
+}
+
+.main1_logo1, .main1_logo2 {
+padding-top: 50px;
+text-align: center;
+}
+
+.submenu{
+
+width: 350px;
+text-align: right;
+font-size: 12px;
+height: 10px;
+}
+
+.submenu ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  height: 10px;
+  }
+
+
+  .main1_menu1 {
+  margin-left: 50px;
+  margin-top: 50px;
+  display: flex;
+  
+  }
+
+  .main1_menu2, .main1_menu3, .main1_menu4  {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+
+.main1_menu2 {
+  background-color: rgb(36, 205, 214);
+}
+.main1_menu3
+{
+  background-color: rgb(102, 166, 225);
+}
+
+.main1_menu4
+{
+  background-color: rgb(66, 141, 212);
+}
+.main1_menu1 > img {
+  width: 30%;
+  
+  }
+
+  
+.main1_menu2 .sub, .main1_menu3 .sub, .main1_menu4 .sub {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.main1_menu2 img, .main1_menu3 img, .main1_menu4 img {
+  width: 40%;
+  margin-top: 10px;
+  
+  }
+
+  .main1_menu2 img {
+  width: 30%
+  }
+  
+
+.main1_menu2 span, .main1_menu3 span, .main1_menu4  span {
+text-align: center;
+}
+
+.main1_menu5 {
+  display: flex;
+  background-color: rgb(36, 205, 214);
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  flex-direction: column;
+  float: left;
+}
+
+/* index2 */
+
+.main2_menu1, .main2_menu2, .main2_menu3, .main2_menu4, .main2_menu5  {
+  display: flex;
+  width: 600px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  flex-direction: row;
+  margin-left: 250px;
+  
+}
+
+.main2_menu2, .main2_menu3, .main2_menu4, .main2_menu5 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 0px;
+  text-align: center;
+  
+}
+
+.main2_menu1 {
+  margin-top: 50px;
+background-color: white;
+
+}
+
+.main2_menu2 {
+  background-color: rgb(56, 173, 103);
+}
+.main2_menu3
+{
+  background-color: rgb(16, 102, 50);
+}
+
+.main2_menu4
+{
+  background-color: rgb(27, 142, 104)
+}
+
+.main2_menu2 img, .main2_menu3 img, .main2_menu4 img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+  .main2_menu5 {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  }

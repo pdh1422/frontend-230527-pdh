@@ -23,12 +23,15 @@ justify-content: center;
 
 
 #login_form{
+  display: flex;
 padding: 20px 28px;
 width: 400px; 
 height: 200px;
-border: 1px solid #888;
+border: 1.3px solid #88888876;
 border-radius: 6px;
-margin: auto;
+
+margin-left: 580px;
+
 }
 
 #langs {
@@ -40,14 +43,47 @@ margin-left: 45em;
 padding: 35px;
 }
 
+.inputs a, .space {
+  text-decoration: none;
+  color: inherit;
+}
+
+.lang {
+width: 90px;
+height: 30px;
+text-align: center;
+border-radius: 0%;
+border: 1.3px solid #88888876;
+}
+
 .inputs {
+  
+display: inline-block;
 border: 1px solid #dadada;
 border-radius: 5px;
 width: 100%;
 height: 20%;
+
 /* justify-content: center; */
 /* align-items: center; */
 
+}
+
+.lists {
+display: flex;
+justify-content: space-around;
+
+}
+
+.lists li {
+  margin-right: 10px;
+  color: #888;
+  font-size: 12px;
+}
+footer {  color: #888;
+  font-size: 12px;
+display: flex;
+justify-content: center;
 }
 
 ::marker {
@@ -69,4 +105,12 @@ font-weight: 700;
 /* padding: 13px; */
 border: 1px solid;
 border-radius: 5px;
+}
+
+footer a {
+  color: #03c75a;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 5px;
 }
